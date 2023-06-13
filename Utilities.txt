@@ -1,0 +1,9 @@
+colors : 
+
+#4DA1F5
+#FCA311
+#41FAF5
+#3A61DE
+#4641FA
+#000000
+#FFFFFF

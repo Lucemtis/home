@@ -1,0 +1,12 @@
+/* animation scroll vélocité */
+
+.move-up {
+    transform-origin: right top;
+    transform: skewY(calc(1deg * 0.1 * var(--scroll-velocity))) ;
+  }
+  
+  .move-down {
+    transform-origin: right bottom;
+    transform: skewY(calc(-1deg * 0.1 * var(--scroll-velocity)));
+  }
+  

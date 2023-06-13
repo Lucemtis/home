@@ -1,0 +1,17 @@
+
+/* boutons de base */
+
+
+#header-menu .menu li a:hover, .social-links a:hover, .social-links button:hover, #header-menu #home a:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.social-links a:hover, .social-links button:hover{
+  background-image: linear-gradient(to bottom, transparent, #FCA311);
+}
+
+.social-links a:hover:active, .social-links button:hover:active , #header-menu .menu li a:hover:active, #header-menu #home a:hover:active {
+  transform: translateY(-5px) scale(1.1);
+  transform: scale(0.8);
+  transition: 50ms;
+}

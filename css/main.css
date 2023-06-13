@@ -1,0 +1,56 @@
+/* Main container */
+
+main{
+  display: grid;
+  width: 100%;
+  height: calc(100vh - 60px - ( 1vw + 10px ) - 30px);
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto 1fr auto;
+
+}
+
+/* Section banner */
+
+#banner {
+  grid-column: span 3;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#title-banner.collapsed {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#title-banner{
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 10px #ffffff98;
+  height: 9vw;
+  padding-top: 2vw;
+  font-size: 11.7vw;
+  letter-spacing: 0; 
+  line-height: 0.6;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#title-banner span{
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 10px #ffffff98;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

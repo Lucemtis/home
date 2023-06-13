@@ -1,0 +1,50 @@
+.defilant {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+    
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+  }
+  
+  .content-defilant {
+    color: #fff;
+    position: absolute;
+    min-width: 100%; 
+  }
+  
+  .content-defilant span, 
+  .content-defilant:after {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    white-space: nowrap;
+    top:0;
+  }
+  
+  .content-defilant span {
+    animation: defilement-element 20s infinite linear;
+  }
+  
+  .content-defilant:after {
+    position: absolute;
+    top:0; left:0;
+    content:attr(data-text);
+    animation: defilement-after 20s infinite linear;
+  }
+  
+  @keyframes defilement-element {
+    0% { margin-left: 0; }
+    100% { margin-left: -100%; }
+  }
+  @keyframes defilement-after {
+    0% { margin-left: 100%; }
+    100% { margin-left: 0%; }
+  }

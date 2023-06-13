@@ -1,0 +1,149 @@
+/* Header */
+header {
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  
+}
+  
+header *{
+  all: unset;
+}
+
+header .Separator{
+  width: auto;
+  height: auto;
+}
+
+#header-menu{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 15px;
+}
+
+nav #home{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#home a{
+  
+  padding-right: 20px;
+}
+
+nav#header-menu a img{
+  width: 35px;
+  height: 35px;
+  filter: invert(1);
+}
+
+#header-menu .contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 0 25px;
+  color: hsl(199, 100%, 50%);
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .2s;
+  height: 50px ;
+  width: 150px;
+  font-size: 2.2vh;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#header-menu .contact:hover {
+  background: hsl(199, 100%, 50%);
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px hsl(199, 100%, 50%),
+              0 0 15px hsla(199, 100%, 50%, 0.388);
+}
+
+#header-menu .contact span {
+  position: absolute;
+  display: block;
+}
+
+#header-menu .contact span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, hsl(199, 100%, 50%));
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+#header-menu .contact span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, hsl(199, 100%, 50%));
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+#header-menu .contact span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, hsl(199, 100%, 50%));
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+#header-menu .contact span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, hsl(199, 100%, 50%));
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+#loading{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    animation: fadeOut 2s linear forwards;
+  }
+  
+  
+  @keyframes fadeOut {
+    0% { 
+      opacity: 1;top:0px;
+    }
+    10% { 
+      opacity: 1;top:0px; 
+    }
+    90% { 
+      opacity: 1; transform: translateY(0px);top:0px;
+    }
+    99% { 
+      opacity: 0; transform: translateY(-30px);top:0px;
+    }
+    100% { 
+      opacity: 0;top: -100vh; 
+      pointer-events: none;
+    }
+    
+  }
+  
+  #logo-loading , .word{
+    margin: 0px auto;
+  }
+  
+  .matrix-loading {
+    color: #ffffff;
+    font-size: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin: auto;
+    text-shadow: 0 0 10px #fca2117f, 0 0 5px #fca2117f;
+  }
+  
+  #logo-loading img{
+    width: 80px;
+    height: 80px;
+    filter: invert(1) drop-shadow(0 0 10px #fca211);
+  }
+  
+  .matrix-loading span {
+    transform: translateX(100%) scale(0.9);
+    transition: transform 500ms;
+  }
+  
+  .matrix-loading .done {
+    color: #FCA311;
+    transform: translateX(0) scale(1);
+  }

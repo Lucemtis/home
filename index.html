@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+   <html lang="fr"> 
+    <head>
+       <meta charset="UTF-8" />
+       <title>Lucemtis Mioky 2023</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="author" content="Lucemtis Mioky"/>
+       <meta name="keywords" content="Lucemtis, Mioky, Portfolio, Artist, Web developer, creator"/>
+       <meta name="description" content="Lucemtis Mioky web site 2023"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Poppins:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+      
+       <!-- feuille de style de bases -->
+
+       <link rel="stylesheet" href="css/header.css">
+       <link rel="stylesheet" href="css/main.css">
+       <link rel="stylesheet" href="css/footer.css">
+       <link rel="stylesheet" href="css/nav-side-bar.css">
+       <link rel="stylesheet" href="css/contact.css">
+       <link rel="stylesheet" href="css/content-container.css">
+       <link rel="stylesheet" href="css/mobile-changes.css">
+       <link rel="stylesheet" href="css/base.css">
+
+       <!-- feuille de style d'animations -->
+
+       <link rel="stylesheet" href="css/animations/other-animations.css">
+       <link rel="stylesheet" href="css/animations/cursor.css">
+       <link rel="stylesheet" href="css/animations/loading.css">
+       <link rel="stylesheet" href="css/animations/scroll-band.css">
+       <link rel="stylesheet" href="css/animations/scroll-flag.css">
+       <link rel="stylesheet" href="css/animations/stars.css">
+
+       <!-- Scripts d'importations -->
+
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+
+    </head>
+</body>
+</html>
+
+    <body class="full-content">
+
+      <!-- ######################### -->
+
+      <!-- LOADING / CURSOR / 360DEG -->
+
+      <!-- ######################### -->
+
+      <div id="stars-container">
+         <div id='stars'></div>
+         <div id='stars2'></div>
+         <div id='stars3'></div>
+      </div>
+
+      <div class='cursor' id="cursor"></div>
+      <div class='cursor2' id="cursor2"></div>
+      <div class='cursor3' id="cursor3"></div>
+      
+      <div id="loading">
+         <figure id="logo-loading">
+            <img src="media/Logo.svg" alt="Home">
+         </figure>
+         <div class="word"><span class="matrix-loading">LOADING...</span></div>
+         <div class="overlay"></div>
+      </div>
+
+      <div class='outer-scratch'>
+         <div class="inner-scratch">
+             <div class="background grain"></div>
+         </div>
+     </div>
+
+
+      <!-- ######################### -->
+
+      <!--           HEADER          -->
+      
+      <!-- ######################### -->
+
+      <header>
+         <nav id="header-menu">
+            <div id="home" class="hover-target">
+               <a href="javascript:void(0);"><img src="media/Logo.svg" alt="Home"></a>
+            
+               <div class="defilant">
+                  <div class="content-defilant" data-text="— Lucemtis - Mioky 2023 — ✧ — Lucemtis - Mioky 2023 — ✧ — Lucemtis - Mioky 2023 —"><span>— Lucemtis - Mioky 2023 — ✧ — Lucemtis - Mioky 2023 — ✧ — Lucemtis - Mioky 2023 —</span></div>
+               </div>
+            
+            </div>
+
+            <button class="contact hover-target matrix-button">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="matrix-text-selected">Contact</span>
+            </button>
+
+         </nav>
+
+         <div class="Separator">
+            <div class="Cross-separator"></div>
+            <div class="Line-separator"></div>
+            <div class="Cross-separator"></div>
+         </div>
+
+         <!-- Contact -->
+   
+         <div id="contact-pan">
+
+            <button class="contact hover-target matrix-button">Close</button>
+
+            <div class="Separator ">
+               <div class="Cross-separator"></div>
+               <div class="Line-separator"></div>
+               <div class="Cross-separator"></div>
+            </div>
+
+            <div id="content-contact">
+
+               <h2>PROJECT INQUIRY</h2>
+               <p>
+                  I'd like to find out more about your project to make sure it's suitable for my services. To take the next step, please review the details below and complete the form.
+               </p>
+               <p>
+                  <span>Schedule</span> — As an independent company dedicated to delivering first-class results, I work with total commitment to a few select clients at a time.
+               </p>
+               <p>
+                  <span>Scope</span> — My area of expertise focuses primarily on visual identity, web design and development. I'm open to other requests and generally look to work on the most important opportunities.
+               </p>
+               <p>
+                  <span>Budget</span> — Budgets vary according to deliverables, deadlines and challenges. My most modest engagements generally start at 200 euros per day, and I offer terms and conditions that will be provided to you during our initial contact. If your expectations differ, I invite you to continue the conversation and let me know your budget limits.
+               </p>
+               <p>
+                  If you have any questions, or would like to discuss whether my services are suitable for your needs, please don't hesitate to contact me.
+               </p>
+
+               <form>
+                  <div id="form-name">
+                     <label for="name">Your Name *</label>
+                     <input type="text" id="name" name="name" placeholder="Type here" required>
+                  </div>
+                  
+                  <div id="form-email">
+                     <label for="email">Your E-mail *</label>
+                     <input type="email" id="email" name="email" placeholder="Type here" required>
+                  </div>
+
+                  <div id="form-company">
+                     <label for="company">Your Company</label>
+                     <input type="text" id="company" name="company" placeholder="Type here">
+                  </div>
+
+                  <div id="form-position">
+                     <label for="position">Your Position</label>
+                     <input type="text" id="position" name="position" placeholder="Type here">
+                  </div>
+                  
+                  <div id="form-services">
+                     <label>Services requested</label>
+                     <div id="form-services-checkbox">
+                        <input type="checkbox" id="webdesign" name="services" value="Web Design">
+                        <label for="webdesign">Web Design</label>
+                        <input type="checkbox" id="webdevelopment" name="services" value="Web Development">
+                        <label for="webdevelopment">Web Development</label>
+                        <input type="checkbox" id="graphicdesign" name="services" value="Graphic Design">
+                        <label for="graphicdesign">Graphic Design</label>
+                        <input type="checkbox" id="other" name="services" value="Other">
+                        <label for="other">Other</label>
+                     </div>
+                  </div>
+
+                  <div id="form-projectdetails">
+                     <label for="projectdetails">Project Details *</label>
+                     <textarea id="projectdetails" name="projectdetails" placeholder="Details about your project..." required></textarea>
+                  </div>
+                  
+                  <div id="form-budget">
+                     <label for="budget">Your Budget *</label>
+                     <input type="text" id="budget" name="budget" placeholder="Type here" required>
+                  </div>
+          
+                  <div id="form-deadline">
+                     <label for="deadline">Deadline Expectations *</label>
+                     <input type="text" id="deadline" name="deadline" placeholder="Type here" required>
+                  </div>
+
+                  <div id="form-howyoufoundme">
+                     <label for="howyoufoundme">How You Found Me *</label>
+                     <input type="text" id="howyoufoundme" name="howyoufoundme" placeholder="Type here" required>
+                  </div>
+
+                  <div id="form-phone">
+                     <label for="phone">Phone Number</label>
+                     <input type="tel" id="phone" name="phone" placeholder="Type here">
+                  </div>
+
+                  <input type="submit" value="Forward to e-mail" onclick="sendEmail(event)">
+
+              </form>
+            </div>
+            
+         </div>
+
+       </header>
+
+      <main>
+
+         <div id="banner" class="hover-target">
+
+            <h1 id="title-banner">
+               Lucemtis Mioky
+            </h1>
+
+            <div class="Separator  ">
+               <div class="Cross-separator"></div>
+               <div class="Line-separator"></div>
+               <div class="Cross-separator"></div>
+            </div>
+         </div>
+
+         <div id="bannerThree">
+
+         </div>
+
+         <div class="nav-side-bar">
+
+            <!-- ABOUT -->
+            <div id="about-pc">
+               <h2 class="">
+                  About
+               </h2>
+   
+               <nav id="nav-about">
+                  <ul>
+                     <li class="project-li-container  hover-target" data-text="ABO_01">
+                        <button class="project-button matrix-button">
+                           <div class="cross-button-container">
+                              <span class="cross-button"></span>
+                           </div>
+                           <h3 class="matrix-text-selected">About me</h3>
+                        </button>
+                        
+                        <div class="project-button-container">
+                           
+                           <div id="Nav-detail-buttons">
+                              <a href="#" id="site-redirection-nav" class="project-button-redirection hover-target" target="_blank">Site↗</a>
+                           </div>
+
+                        </div>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+
+            <!-- SERVICES -->
+
+            <h2 class="">
+               Services
+            </h2>
+
+            <nav id="nav-about">
+               <ul>
+                  <li class="project-li-container  hover-target" data-text="SER_01">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Web design</h3>
+                     </button>
+
+                     <div class="project-button-container"></div>
+                  </li>
+
+                  <li class="project-li-container  hover-target" data-text="SER_02">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Web developpement</h3>
+                     </button>
+
+                     <div class="project-button-container"></div>
+                  </li>
+
+                  <li class="project-li-container  hover-target" data-text="SER_03">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Graphic design</h3>
+                     </button>
+
+                     <div class="project-button-container"></div>
+                  </li>
+
+                  <li class="project-li-container  hover-target" data-text="SER_04">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">I.A. training</h3>
+                     </button>
+
+                     <div class="project-button-container"></div>
+                  </li>
+
+                  <li class="project-li-container  hover-target" data-text="SER_05">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Draw training </h3>
+                     </button>
+
+                     <div class="project-button-container"></div>
+                  </li>
+               </ul>
+            </nav>
+            
+            <!-- PROJECTS -->
+
+            <h2 class="">
+               Projects
+            </h2>
+
+            <nav id="nav-projects">
+               <ul>
+                  <li class="project-li-container  hover-target" data-text="PRO_01">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Old Portfolio</h3>
+                     </button>
+                     <div class="project-button-container"></div>
+                  </li>
+                  <li class="project-li-container  hover-target" data-text="PRO_02">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Art Nathacha</h3>
+                     </button>
+                     <div class="project-button-container"></div>
+                  </li>
+                  <li class="project-li-container  hover-target" data-text="PRO_03">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Zero.</h3>
+                     </button>
+                     <div class="project-button-container"></div>
+                  </li>
+                  <li class="project-li-container  hover-target" data-text="PRO_04">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">Morphing</h3>
+                     </button>
+                     <div class="project-button-container"></div>
+                  </li>
+                  <li class="project-li-container  hover-target" data-text="PRO_05">
+                     <button class="project-button matrix-button">
+                        <div class="cross-button-container">
+                           <span class="cross-button"></span>
+                        </div>
+                        <h3 class="matrix-text-selected">The Cube</h3>
+                     </button>
+                     <div class="project-button-container"></div>
+                  </li>
+               </ul>
+            </nav>
+
+            <!-- ABOUT Mobil version -->
+
+            <div id="about-mobile">
+               <h2 class="">
+                  About me
+               </h2>
+      
+               <div id="info-about" class="">
+                  <p id="description-about">Hey there! I'm a passionate multimedia creator with a professional degree in the art of crafting captivating digital experiences. Fresh out of my studies, I've embarked on an exciting journey to bring your stories to life. Together, we'll weave narratives that engage, inspire, and leave a lasting impression. From stunning visuals to immersive soundscapes, my young multimedia creation company is dedicated to harnessing the power of technology and imagination. Let's embark on an adventure where creativity knows no bounds. Welcome to the realm of limitless possibilities!</p>
+                  <h2>Services</h2>
+                  <p id="service-description-about">Web designer, Web developer, Graphic designer, Training writer, Translator</p>
+                  <h2>Stack</h2>
+                  <p id="service-stack-about">HTML // CSS // JS // SQL // PHP // Python // GitHub // Wordpress // Adobe Suite // Blender // Procreate // CRM tools // SEO tools // FL-Studio 20 // Unity // Unreal Ungine 5</p>
+               </div>   
+            </div>
+
+         </div>
+
+         <!-- Project Details -->
+
+         <div class="header-detail">
+            <h2>Project Detail</h2>
+            <div id="header-detail-buttons">
+               <button  id="info-button" class="project-button-redirection hover-target">Info</button>
+               <a href="#" id="site-redirection" class="project-button-redirection hover-target" target="_blank">Site↗</a>
+            </div>
+         </div>
+         
+         <div id="content-container">
+            
+            <div class="gallery ">
+               <div class="carousel">
+                  <div id="threeObject"></div>
+               </div>
+            </div>
+            
+            <div class="info ">
+               <p class="description">
+               </p>
+               <h2>Services</h2>
+               <p class="service-description">
+               </p>
+               <h2>Stack</h2>
+               <p class="service-stack">
+               </p>
+            </div>
+
+         </div>
+
+         <div id="footer" class="hover-target">
+            
+            <div class="Separator">
+               <div class="Cross-separator"></div>
+               <div class="Line-separator"></div>
+               <div class="Cross-separator"></div>
+            </div>
+
+            <nav id="footer-menu">
+              <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/lucem-mioky-115321275/" target="_blank" class="hover-target"><img src="media/social-links-svg/linkedin.svg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.artstation.com/lucemtis-mioky" target="_blank" class="hover-target"><img src="media/social-links-svg/artstation.svg" alt="ArtStation"></a></li>
+                <li><a href="https://www.instagram.com/lucemtis_mioky" target="_blank" class="hover-target"><img src="media/social-links-svg/instagram.svg" alt="Instagram"></a></li>
+                <li><button class="contact" class="hover-target matrix-button"><img src="media/social-links-svg/email.svg" alt="E-mail"></button></li>
+              </ul>
+            </nav>
+
+         </div>
+      </main>
+
+      <script src="js/sendEmail.js"></script>
+      <script src="js/toggles.js" async></script>
+      <script src="js/cursor.js" async></script>
+      <script src="js/matrixButtonEffect.js" async></script>
+      <script src="js/loading.js" async></script>
+      <script src="js/container-data.js" async></script>
+      <script src="js/carousel.js" async></script>
+      <script type="module" src="js/3dObject.js" async></script>
+    </body>
+</html>

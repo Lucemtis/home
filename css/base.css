@@ -1,0 +1,146 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+}
+
+header , #footer{
+  width: 100%;
+  right: 0;
+  z-index: 999;
+}
+
+h2, 
+.project-li-container h2{
+  color: rgb(156, 156, 156);
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1vw;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  white-space: nowrap;
+  font-size: 1vw;
+}
+
+
+/* Colors */
+
+#loading, body, #contact-pan{
+  background: radial-gradient(circle, #282837, #18181f, #0c0c12);
+}
+
+.li-active h3, #header-detail-buttons, #Nav-detail-buttons{
+  color: hsl(199, 100%, 50%);
+  text-shadow: 0 0 5px hsla(199, 100%, 50%, 0.392);
+}
+
+.cross-button::before, .cross-button::after {
+  background-color: hsl(199, 100%, 50%);
+  box-shadow: 0 0 5px hsla(199, 100%, 50%, 0.553);
+}
+
+.cross-button-container::before , .cross-button-container::after{
+  border-color: hsl(199, 100%, 50%);
+}
+
+main #content-container *, main #content-container, main #footer *{
+  background-color: transparent;
+}
+
+footer .hover-target{
+  background-color: #4da1f54d;
+  box-shadow: -2px 2px #082847b2;
+}
+
+::selection {
+  background-color: black;
+}
+
+/* Background */
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+/* Scrollbar custome */
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Navigation underline */
+
+.Separator{
+  width: 100%;
+  height: calc(1vw + 10px);
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Line-separator{
+  width: 100%;
+  position: relative;
+}
+
+.Line-separator::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 0.1vw;
+  background-color: rgb(155, 155, 155); 
+}
+
+.Cross-separator {
+  position: relative;
+  min-width: 1vw;
+  min-height: 1vw;
+  margin: 0px 0.5vw;
+}
+
+.Cross-separator::before,
+.Cross-separator::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 0.1vw;
+  background-color: rgb(155, 155, 155);  
+}
+
+.Cross-separator::before {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.Cross-separator::after {
+  transform: translateY(-50%) rotate(-45deg);
+}
