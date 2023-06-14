@@ -8,7 +8,7 @@
     },
     {
         "title": "SER_01",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg", "./media/Images/3.jpg", "./media/Images/4.jpg", "./media/Images/5.jpg", "./media/Images/6.jpg", "./media/Images/7.jpg", "./media/Images/8.jpg", "./media/Images/9.jpg", "./media/Images/10.jpg"],
+        "image": ["./media/Images/WebDesign-1.jpg","./media/Images/WebDesign-2.jpg","./media/Images/WebDesign-3.jpg","./media/Images/WebDesign-4.jpg"],
         "link": "javascript:void(0);",
         "description": "Introducing our premier web graphic design service! With meticulous attention to detail and a focus on professionalism, we excel at crafting stunning visuals for websites. Our expert team seamlessly blends creativity with cutting-edge programming to bring your vision to life. From captivating layouts to eye-catching elements, we deliver tailor-made design models that captivate both individuals and businesses alike. Elevate your online presence with our rigorous and professional web graphic design service.",
         "service": "Web Design, Mock-ups",
@@ -16,7 +16,7 @@
     },
     {
         "title": "SER_02",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg", "./media/Images/3.jpg"],
+        "image": ["./media/Images/WebDev-1.jpg","./media/Images/WebDev-2.jpg","./media/Images/WebDev-3.jpg"],
         "link": "javascript:void(0);",
         "description": "Unlock your digital potential with our professional web development service. We specialize in creating custom, user-friendly websites that captivate your audience. From design to deployment, our rigorous approach ensures flawless functionality and seamless integration. Whether you're a company or an individual, trust us to deliver exceptional web solutions tailored to your unique needs. Elevate your online presence today!",
         "service": "Web development, Website takeover",
@@ -48,7 +48,7 @@
     },
     {
         "title": "PRO_01",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg"],
+        "image": ["./media/Images/oldPortfolio-1.jpg", "./media/Images/oldPortfolio-2.jpg", "./media/Images/oldPortfolio-3.jpg", "./media/Images/oldPortfolio-4.jpg", "./media/Images/oldPortfolio-5.jpg", "./media/Images/oldPortfolio-6.jpg"],
         "link": "https://lucemtis.github.io/Old_Porfolio",
         "description": "Immerse yourself in the elegance of my meticulously crafted portfolio. Created using HTML, CSS, and JS, devoid of any frameworks, it showcases my expertise with utmost professionalism. Witness a seamless blend of design and functionality, a testament to my commitment to excellence. Let my work speak for itself.",
         "service": "Web designer, Web developer, Graphic designer",
@@ -56,7 +56,7 @@
     },
     {
         "title": "PRO_02",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg"],
+        "image": ["./media/Images/art-nathacha-1.jpg", "./media/Images/art-nathacha-2.jpg", "./media/Images/art-nathacha-3.jpg", "./media/Images/art-nathacha-4.jpg"],
         "link": "https://www.artnathacha.com/",
         "description": "Indulge in the realm of artistic expression through our meticulously curated online artist shop. Step into a world where creativity knows no bounds, as you explore a captivating collection of handcrafted masterpieces. Discover extraordinary paintings, sculptures, and unique works of art that exude passion and originality. Elevate your surroundings with pieces that resonate with your unique style and bring joy to your everyday life. Immerse yourself in the transformative power of art. Visit our website today and unlock a world of artistic inspiration.",
         "service": "Web designer, Web developer, Graphic designer",
@@ -64,7 +64,8 @@
     },
     {
         "title": "PRO_03",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg"],
+        "image": ["./media/Images/Zero.jpg"],
+        "progress": [""],
         "link": "javascript:void(0);",
         "description": "Unveiling our revolutionary website—an epitome of innovation and professionalism. Witness the captivating synergy of a language AI-driven character and mesmerizing graphics. Immerse yourself in an interactive showcase that pushes the boundaries of creative expression. Discover the limitless potential of AI-driven technology and embark on a remarkable digital journey. Explore our website today to experience a new realm of possibilities and elevate your online presence. Step into a future where imagination and intelligent design converge.",
         "service": "Web designer, Web developer, Graphic designer",
@@ -72,7 +73,7 @@
     },
     {
         "title": "PRO_04",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg"],
+        "image": ["./media/Images/Morphing-1.jpg", "./media/Images/Morphing-2.jpg", "./media/Images/Morphing-3.jpg", "./media/Images/Morphing-4.jpg", "./media/Images/Morphing-5.jpg", "./media/Images/Morphing-6.jpg"],
         "link": "https://fr.ulule.com/projet-morphing/",
         "description": "Discover Morphing, an immersive 2D action RPG reminiscent of acclaimed titles like Hollow Knight. Embark on a thrilling journey through intricate hand-drawn environments, engaging in intense combat and unraveling captivating storylines. Unleash your unique morphing abilities, conquer challenging enemies, and uncover hidden secrets in this unforgettable gaming experience. Ideal for both individuals and companies seeking a thrilling adventure.",
         "service": "Game Developpement, Graphic design",
@@ -80,7 +81,8 @@
     },
     {
         "title": "PRO_05",
-        "image": ["./media/Images/1.jpg", "./media/Images/2.jpg"],
+        "progress": [""],
+        "image": ["./media/Images/The-Cube.jpg", "./media/Images/The-Cube-player.jpg", "./media/Images/The-Cube-Objects.jpg", "./media/Images/The-Cube-playScene.jpg"],
         "link": "javascript:void(0);",
         "description": "Introducing The Cube, a captivating 2D pixel puzzle RPG game. Embark on a thrilling adventure where strategic thinking and problem-solving skills are key. Immerse yourself in a visually stunning world, filled with challenging puzzles and engaging quests. Unlock mysteries, level up your character, and conquer enemies. The Cube delivers an unforgettable gaming experience for both individuals and companies seeking an exciting and addictive RPG game.",
         "service": "Game Developpement, Graphic design",

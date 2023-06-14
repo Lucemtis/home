@@ -75,7 +75,7 @@ function changePlaceThreeObject(){
         bannerThree.appendChild(threeObject);
         
       }
-      else{
+      else if(threeObject.classList.value == 'no-images'){
         gallery.appendChild(threeObject);
       }
 }

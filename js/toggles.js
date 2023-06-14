@@ -53,7 +53,7 @@ home.addEventListener('click', function() {
 liElements.forEach(function(li) {
   li.addEventListener('click', function() {
     // Vérifiez si l'élément li possède déjà la classe "active"
-    if (this.classList.contains('li-active')) {
+    if (window.innerWidth < 800 && this.classList.contains('li-active')) {
       // Supprimez la classe "active" de l'élément li
       this.classList.remove('li-active');
     } else {

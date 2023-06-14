@@ -51,6 +51,7 @@ fetch('json/allDatas.json')
           if (item.image) {
 
             bannerThree.appendChild(threeObject);
+            threeObject.classList.remove('no-images');
             
             let boolPairImpair = 0;
 
@@ -95,6 +96,7 @@ fetch('json/allDatas.json')
               }
             
           } else {
+            threeObject.classList.add('no-images');
             gallery.appendChild(threeObject);
           }
 
@@ -102,6 +104,7 @@ fetch('json/allDatas.json')
           const description = document.querySelector('.description');
           const serviceDescription = document.querySelector('.service-description');
           const serviceStack = document.querySelector('.service-stack');
+          const progress = document.getElementById('inProgress');
 
           if(item.link == "javascript:void(0);"){
             siteRedirection.removeAttribute("target");
@@ -109,6 +112,14 @@ fetch('json/allDatas.json')
           else{
             siteRedirection.target = "_blank";
           }
+
+          if(item.progress){
+            progress.classList.add("active");
+          }
+          else{
+            progress.classList.remove("active");
+          }
+
           siteRedirection.href = item.link;
           siteRedirectionNav.href = item.link;
           description.textContent = item.description;

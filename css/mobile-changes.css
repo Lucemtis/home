@@ -191,3 +191,12 @@
         align-items: center;
       }
 }
+
+@media (hover: none) {
+    /* Styles à appliquer lorsque l'utilisateur utilise un écran tactile */
+    #cursor,
+    #cursor2,
+    #cursor3{
+        display: none;
+    }
+  }

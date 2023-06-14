@@ -1,19 +1,9 @@
-/* HTML : 
-
-<div class="full-content">
-  <div id="stars-container">
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-  </div>
-</div>
- */
-
 
 .full-content{
   position: relative;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 #stars-container{
