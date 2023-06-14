@@ -16,7 +16,7 @@
     },
     {
         "title": "SER_02",
-        "image": ["./media/Images/WebDev-1.jpg","./media/Images/WebDev-2.jpg","./media/Images/WebDev-3.jpg"],
+        "image": ["./media/Images/webDev-1.jpg","./media/Images/webDev-2.jpg","./media/Images/webDev-3.jpg"],
         "link": "javascript:void(0);",
         "description": "Unlock your digital potential with our professional web development service. We specialize in creating custom, user-friendly websites that captivate your audience. From design to deployment, our rigorous approach ensures flawless functionality and seamless integration. Whether you're a company or an individual, trust us to deliver exceptional web solutions tailored to your unique needs. Elevate your online presence today!",
         "service": "Web development, Website takeover",
