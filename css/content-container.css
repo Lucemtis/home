@@ -222,6 +222,6 @@
 #inProgress h2{
   opacity: 0.5;
   filter: blur(0.5);
-  font-size: 5em;
+  font-size: 7vw;
   transform: rotate(20deg);
 }
