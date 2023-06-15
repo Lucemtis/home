@@ -190,6 +190,10 @@
         justify-content: center;
         align-items: center;
       }
+
+      body.full-content .defilant{
+        display: none;
+      }
 }
 
 @media (hover: none) {

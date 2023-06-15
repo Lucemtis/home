@@ -1,5 +1,21 @@
-// Effectuer une requête HTTP pour récupérer le fichier JSON
-fetch('json/allDatas.json')
+// Obtenir le nom de la page actuelle
+const currentPageName = window.location.pathname.split('/').pop();
+
+// Déterminer la langue en fonction du nom de la page
+let selectedLanguage = 'en'; // Langue par défaut
+
+if (currentPageName !== 'index.html' && currentPageName !== '') {
+  selectedLanguage = currentPageName.replace('.html', '');
+}
+else{
+  selectedLanguage = 'en';
+}
+// Ajoutez des conditions supplémentaires pour d'autres langues si nécessaire
+
+// Utiliser la valeur de la langue pour charger le fichier JSON correspondant
+const jsonFileName = 'json/allDatas_' + selectedLanguage + '.json';
+
+fetch(jsonFileName)
   .then(response => response.json())
   .then(data => {
     // Stocker les données JSON dans la variable jsonData
@@ -10,7 +26,6 @@ fetch('json/allDatas.json')
     lis.forEach(li => {
         li.addEventListener('click', function () {
           if(this.classList.contains('li-active')){
-            console.log("changing");
           const contentContainer = document.getElementById('content-container');
           const gallery = document.querySelector('.gallery');
           const carousel = document.querySelector('.carousel');

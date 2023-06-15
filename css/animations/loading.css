@@ -35,6 +35,7 @@
   
   #logo-loading , .word{
     margin: 0px auto;
+    text-transform: uppercase;
   }
   
   .matrix-loading {

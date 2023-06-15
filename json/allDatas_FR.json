@@ -1,0 +1,93 @@
+[
+    {
+        "title": "ABO_01",
+        "link": "https://www.linkedin.com/in/lucem-mioky-115321275/",
+        "description": "Bonjour ! Je suis un créateur multimédia passionné titulaire d'un diplôme professionnel dans l'art de créer des expériences numériques captivantes. Fraîchement diplômé, je me lance dans un voyage passionnant pour donner vie à vos histoires. Ensemble, nous tisserons des récits qui captivent, inspirent et laissent une impression durable. Des visuels époustouflants aux paysages sonores immersifs, ma jeune entreprise de création multimédia est dédiée à exploiter le pouvoir de la technologie et de l'imagination. Embarquons pour une aventure où la créativité ne connaît pas de limites. Bienvenue dans le royaume des possibilités illimitées !",
+        "service": "Web designer, Développeur Web, Graphiste, Rédacteur de formations",
+        "stack": "HTML // CSS // JS // SQL // PHP // Python // GitHub // Wordpress // Suite Adobe // Blender // Procreate // Outils CRM // Outils SEO // FL-Studio 20 // Unity // Unreal Engine 5"
+    },
+    {
+        "title": "SER_01",
+        "image": ["./media/Images/WebDesign-1.jpg","./media/Images/WebDesign-2.jpg","./media/Images/WebDesign-3.jpg","./media/Images/WebDesign-4.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Découvrez notre service de design graphique web de premier ordre ! Avec une attention méticuleuse aux détails et une focalisation sur le professionnalisme, nous excellons dans la création de visuels époustouflants pour les sites web. Notre équipe d'experts allie harmonieusement créativité et programmation de pointe pour donner vie à votre vision. Des mises en page captivantes aux éléments accrocheurs, nous proposons des modèles de conception sur mesure qui captivent aussi bien les particuliers que les entreprises. Élevez votre présence en ligne avec notre service de design graphique web rigoureux et professionnel.",
+        "service": "Design Web, Maquettes",
+        "stack": "Figma // Adobe XD // Suite Adobe"
+    },
+    {
+        "title": "SER_02",
+        "image": ["./media/Images/webDev-1.jpg","./media/Images/webDev-2.jpg","./media/Images/webDev-3.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Libérez votre potentiel numérique avec notre service professionnel de développement web. Nous sommes spécialisés dans la création de sites web personnalisés et conviviaux qui captivent votre public. De la conception au déploiement, notre approche rigoureuse garantit une fonctionnalité impeccable et une intégration transparente. Que vous soyez une entreprise ou un particulier, faites-nous confiance pour fournir des solutions web exceptionnelles adaptées à vos besoins uniques. Rehaussez votre présence en ligne dès aujourd'hui !",
+        "service": "Développement Web, Reprise de site web",
+        "stack": "HTML // CSS // JS // SQL // PHP // Python // GitHub // Wordpress // Outils CRM // Outils SEO"
+    },
+    {
+        "title": "SER_03",
+        "image": ["./media/Images/graphicDesign-1.jpg", "./media/Images/graphicDesign-2.jpg", "./media/Images/graphicDesign-3.jpg", "./media/Images/graphicDesign-4.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Découvrez notre service complet de design graphique ! Des affiches accrocheuses aux logos captivants, nous créons des supports visuels impressionnants adaptés à vos besoins. Rehaussez votre marque avec nos solutions de design d'entreprise expertes. Besoin d'un dessin unique ou d'une vidéo engageante ? Ne cherchez plus. Nous livrons des designs professionnels et créatifs qui ont un impact. Faites-nous confiance pour donner vie à votre vision et laisser une impression durable. Contactez-nous dès aujourd'hui pour transformer vos idées en une réalité visuellement frappante !",
+        "service": "Design graphique",
+        "stack": "Suite Adobe // Blender // Procreate // FL-Studio 20"
+    },
+    {
+        "title": "SER_04",
+        "progress": [""],
+        "image": ["./media/Images/IATraining.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Débloquez le potentiel de l'intelligence artificielle avec nos programmes de formation de pointe. Notre expertise dans l'utilisation de l'IA garantit une intégration transparente de Chat GPT et une diffusion stable du dessin dans vos opérations commerciales. Maximisez la productivité et la satisfaction des clients grâce à des outils d'IA avancés. Restez en avance sur la concurrence et débloquez de nouvelles possibilités. Découvrez le pouvoir de l'IA dès aujourd'hui !",
+        "service": "Formation, I.A.",
+        "stack": "Chat GPT // MidJourney // DALL.E. 2 // Stable Diffusion"
+    },
+    {
+        "title": "SER_05",
+        "progress": [""],
+        "image": ["./media/Images/drawTtraining.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Découvrez l'artiste qui sommeille en vous lors d'un voyage immersif vers la maîtrise du dessin. Explorez les subtilités de diverses techniques et perfectionnez vos compétences à chaque coup de pinceau. Des principes fondamentaux aux compositions avancées, libérez votre potentiel créatif. Grâce à une formation continue et des mises à jour adaptées à vos besoins en constante évolution, observez vos dessins dépasser les limites. Embrassez le chemin de la croissance et assistez à l'essor de votre talent artistique. Libérez votre imagination et exprimez-vous en toute confiance. Rejoignez-moi lors de ce voyage transformateur vers l'excellence artistique.",
+        "service": "Formation, Dessin",
+        "stack": "Procreate // Adobe Photoshop // Adobe Illustrator // Dessin à main levée"
+    },
+    {
+        "title": "PRO_01",
+        "image": ["./media/Images/oldPortfolio-1.jpg", "./media/Images/oldPortfolio-2.jpg", "./media/Images/oldPortfolio-3.jpg", "./media/Images/oldPortfolio-4.jpg", "./media/Images/oldPortfolio-5.jpg", "./media/Images/oldPortfolio-6.jpg"],
+        "link": "https://lucemtis.github.io/Old_Porfolio",
+        "description": "Immergez-vous dans l'élégance de mon portfolio méticuleusement conçu. Créé en utilisant HTML, CSS et JS, sans aucun framework, il met en valeur mon expertise avec le plus grand professionnalisme. Laissez mon travail parler de lui-même.",
+        "service": "Web designer, Web developer, Graphic designer",
+        "stack": "HTML // CSS // JS // GitHub // Suite Adobe"
+    },
+    {
+        "title": "PRO_02",
+        "image": ["./media/Images/art-nathacha-1.jpg", "./media/Images/art-nathacha-2.jpg", "./media/Images/art-nathacha-3.jpg", "./media/Images/art-nathacha-4.jpg"],
+        "link": "https://www.artnathacha.com/",
+        "description": "Plongez dans le monde de l'expression artistique à travers notre boutique en ligne méticuleusement sélectionnée. Entrez dans un univers où la créativité n'a pas de limites, en explorant une collection captivante de chefs-d'œuvre artisanaux. Découvrez des peintures extraordinaires, des sculptures et des œuvres d'art uniques qui respirent la passion et l'originalité. Rehaussez votre environnement avec des pièces qui correspondent à votre style unique et apportent de la joie à votre vie quotidienne. Immergez-vous dans le pouvoir transformateur de l'art. Visitez notre site web dès aujourd'hui et débloquez un monde d'inspiration artistique.",
+        "service": "Web designer, Web developer, Graphic designer",
+        "stack": "HTML // CSS // JS // Wordpress // WooCommerce // Google Analytics // Suite Adobe"
+    },
+    {
+        "title": "PRO_03",
+        "image": ["./media/Images/Zero.jpg"],
+        "progress": [""],
+        "link": "javascript:void(0);",
+        "description": "Découvrez notre site web révolutionnaire, une fusion captivante entre une intelligence artificielle linguistique et des graphismes envoûtants. Immergez-vous dans une vitrine interactive qui repousse les limites de l'expression créative. Découvrez le potentiel illimité de la technologie pilotée par l'IA et embarquez pour un voyage numérique remarquable. Explorez notre site web dès aujourd'hui pour découvrir un nouveau monde de possibilités et rehausser votre présence en ligne. Entrez dans un avenir où l'imagination et le design intelligent convergent.",
+        "service": "Web designer, Web developer, Graphic designer",
+        "stack": "HTML // CSS // JS // Procreate // Three.js // Blender"
+    },
+    {
+        "title": "PRO_04",
+        "image": ["./media/Images/Morphing-1.jpg", "./media/Images/Morphing-2.jpg", "./media/Images/Morphing-3.jpg", "./media/Images/Morphing-4.jpg", "./media/Images/Morphing-5.jpg", "./media/Images/Morphing-6.jpg"],
+        "link": "https://fr.ulule.com/projet-morphing/",
+        "description": "Découvrez Morphing, un RPG d'action en 2D immersif rappelant des titres acclamés tels que Hollow Knight. Lancez-vous dans un voyage épique dans un monde sombre et envoûtant, où les choix que vous faites façonnent votre destinée. Explorez des donjons dangereux, combattez des monstres redoutables et découvrez des secrets anciens dans cette aventure captivante. Avec des graphismes magnifiques et un gameplay stimulant, Morphing vous transportera dans un univers fantastique dont vous ne voudrez plus partir. Soutenez notre projet sur Ulule et participez à la création d'un jeu inoubliable.",
+        "service": "Game designer, Game developer, Graphic designer",
+        "stack": "Unity // C# // Aseprite // FL-Studio 20"
+    },
+    {
+        "title": "PRO_05",
+        "progress": [""],
+        "image": ["./media/Images/The-Cube.jpg", "./media/Images/The-Cube-player.jpg", "./media/Images/The-Cube-Objects.jpg", "./media/Images/The-Cube-playScene.jpg"],
+        "link": "javascript:void(0);",
+        "description": "Découvrez The Cube, un captivant jeu de rôle de puzzle pixelisé en 2D. Lancez-vous dans une aventure palpitante où la réflexion stratégique et les compétences de résolution de problèmes sont essentielles. Plongez-vous dans un monde visuellement époustouflant, rempli de puzzles stimulants et de quêtes captivantes. Dévoilez des mystères, faites évoluer votre personnage et terrassez des ennemis. The Cube offre une expérience de jeu inoubliable tant pour les individus que pour les entreprises à la recherche d'un jeu de rôle passionnant et addictif.",
+        "service": "Développement de jeux, Design graphique",
+        "stack": "Adobe Suite // Unity"
+    }
+]

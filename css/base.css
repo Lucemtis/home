@@ -40,6 +40,16 @@ h2,
   font-size: 1vw;
 }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 15px;
+  background-color: #0c0c12;
+  border: none; /* Supprime la bordure */
+  border-radius: 50px;
+  margin-left: 20px;
+}
 
 /* Colors */
 
