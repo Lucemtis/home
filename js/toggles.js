@@ -1,16 +1,15 @@
 const contacts = document.querySelectorAll(".contact");
-const contactPan = document.getElementById("contact-pan");
+const contactPan = document.querySelector("#contact-pan");
 
-const footer = document.getElementById('footer');
-const footerMenu = document.getElementById('footer-menu');
+const footer = document.querySelector('#footer');
+const footerMenu = document.querySelector('#footer-menu');
 
-const banner = document.getElementById('banner');
-const titleBanner = document.getElementById('title-banner');
+const banner = document.querySelector('#banner');
+const titleBanner = document.querySelector('#title-banner');
 
-const infoButton = document.getElementById('info-button');
-const contentContainer = document.getElementById('content-container');
+const infoButton = document.querySelector('#info-button');
+const contentContainer = document.querySelector('#content-container');
 
-// Sélectionnez tous les éléments li avec la classe "project-li-container"
 const liElements = document.querySelectorAll('.project-li-container');
 
 contacts.forEach((contact) => {
@@ -20,23 +19,18 @@ contacts.forEach((contact) => {
 });
 
 infoButton.addEventListener('click', function() {
-
   contentContainer.classList.toggle('info-active');
 
   if (contentContainer.classList.contains('info-active')) {
-    infoButton.innerHTML = 'Gallery';
+    infoButton.textContent = 'Gallery';
   } else {
-    infoButton.innerHTML = 'Info';
+    infoButton.textContent = 'Info';
   }
-
 });
 
 banner.addEventListener('click', function() {
-
   titleBanner.classList.toggle('collapsed');
-
 });
-
 
 footer.addEventListener('click', function() {
   footerMenu.classList.toggle('collapsed');
@@ -49,20 +43,15 @@ home.addEventListener('click', function() {
   footerMenu.classList.toggle('collapsed');
 });
 
-
 liElements.forEach(function(li) {
   li.addEventListener('click', function() {
-    // Vérifiez si l'élément li possède déjà la classe "active"
     if (window.innerWidth < 800 && this.classList.contains('li-active')) {
-      // Supprimez la classe "active" de l'élément li
       this.classList.remove('li-active');
     } else {
-      // Supprimez la classe "active" de tous les éléments li
       liElements.forEach(function(li) {
         li.classList.remove('li-active');
       });
 
-      // Ajoutez la classe "active" à l'élément li sur lequel vous avez cliqué
       this.classList.add('li-active');
     }
   });

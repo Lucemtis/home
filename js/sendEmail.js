@@ -1,18 +1,18 @@
 function sendEmail() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var company = document.getElementById("company").value;
-    var position = document.getElementById("position").value;
+    var name = sanitizeInput(document.getElementById("name").value);
+    var email = sanitizeInput(document.getElementById("email").value);
+    var company = sanitizeInput(document.getElementById("company").value);
+    var position = sanitizeInput(document.getElementById("position").value);
     var services = [];
     var checkboxes = document.querySelectorAll('input[name="services"]:checked');
     checkboxes.forEach(function(checkbox) {
-        services.push(checkbox.value);
+        services.push(sanitizeInput(checkbox.value));
     });
-    var projectdetails = document.getElementById("projectdetails").value;
-    var budget = document.getElementById("budget").value;
-    var deadline = document.getElementById("deadline").value;
-    var howyoufoundme = document.getElementById("howyoufoundme").value;
-    var phone = document.getElementById("phone").value;
+    var projectdetails = sanitizeInput(document.getElementById("projectdetails").value);
+    var budget = sanitizeInput(document.getElementById("budget").value);
+    var deadline = sanitizeInput(document.getElementById("deadline").value);
+    var howyoufoundme = sanitizeInput(document.getElementById("howyoufoundme").value);
+    var phone = sanitizeInput(document.getElementById("phone").value);
 
     var subject = encodeURIComponent(name + " - " + company + " - " + services.join(", "));
     var body = encodeURIComponent(
@@ -27,10 +27,13 @@ function sendEmail() {
         "Phone number: " + phone + "\n\n" +
         "Contact e-mail: " + email
     );
-
     var mailtoLink = "mailto:lucemtismioky@email.com"
         + "?subject=" + subject
         + "&body=" + body;
 
     window.location.href = mailtoLink;
+}
+
+function sanitizeInput(input) {
+    return input.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }

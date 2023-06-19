@@ -65,19 +65,16 @@ window.addEventListener('resize', onWindowResize);
 
 init();
 
-
 const bannerThree = document.getElementById('bannerThree');
 const threeObject = document.getElementById('threeObject');
 const gallery = document.querySelector('.gallery');
 
-function changePlaceThreeObject(){
-    if (window.innerWidth < 800) {
-        bannerThree.appendChild(threeObject);
-        
-      }
-      else if(threeObject.classList.value == 'no-images'){
-        gallery.appendChild(threeObject);
-      }
+function changePlaceThreeObject() {
+  if (window.innerWidth < 800) {
+    bannerThree.appendChild(threeObject);
+  } else if (threeObject.classList.value === 'no-images') {
+    gallery.appendChild(threeObject);
+  }
 }
 
 changePlaceThreeObject();

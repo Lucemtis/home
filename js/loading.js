@@ -26,7 +26,7 @@ textloads.forEach((textload) => {
         textload.innerHTML = textload.innerHTML.slice(0, -1);
         const decryptedChar = decryptedText[decryptedIndex];
         textload.innerHTML += decryptedChar;
-        textload.innerHTML += "█";
+        textload.innerHTML += "&#9608;"; // Utiliser l'entité HTML pour le caractère plein (█)
         decryptedIndex++;
         loopCounter = 0; // Réinitialiser le compteur de boucles
       } else {
@@ -35,16 +35,13 @@ textloads.forEach((textload) => {
         textload.innerHTML = originalText;
 
         setTimeout(() => {
-            if(loopCounterEffect <= 5){
-                matrixing();
-                loopCounterEffect++;
-            }
-            else{
-                loopCounterEffect = 0;
-            }
-          }, 500);
-
-
+          if (loopCounterEffect <= 5) {
+            matrixing();
+            loopCounterEffect++;
+          } else {
+            loopCounterEffect = 0;
+          }
+        }, 500);
       }
     }, 30);
   }
