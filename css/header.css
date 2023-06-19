@@ -37,7 +37,6 @@ nav #home{
 nav#header-menu a img{
   width: 35px;
   height: 35px;
-  filter: invert(1);
 }
 
 #header-menu .contact {
